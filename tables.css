@@ -1,0 +1,42 @@
+body{
+    background-color: lightblue;
+}
+p{
+    font-size: 50px;
+    background-color: white;
+    color: purple;
+    text-align: center;
+    width: 50%;
+}
+table{
+    border: double 2px gold;
+    width: 50%;
+    border-collapse: separate;
+}
+th,td{
+    border: solid 1px purple;
+    width: 25%;
+    height: 1cm;
+    font-size: 24px;
+}
+tr:hover{
+    background-color: lightgray;
+}
+td:hover{
+    color: #f00;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.7em;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/02/SwiralTestav.gif);
+}
+tr:nth-child(odd){
+    background-color: lightcyan;
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+caption{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f00;
+}
